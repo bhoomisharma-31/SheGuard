@@ -1,0 +1,17 @@
+# Environment / secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# RAG vector store (rebuilt by scripts/ingest.py on startup)
+**/chroma_store/
+
+# OS
+.DS_Store
+
+# Test/dev scratch
+test_audio.aiff
+test_audio_b64.txt
